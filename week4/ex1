@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>week4 - lab exercise1</title>
+    <head>
+    <body>
+        <div>
+            <a href="https://vnu.edu.vn">Vietnam National University</a>
+        </div>
+        <div>
+            <a href="https://is.vnu.edu.vn">International School-VNU</a>
+        </div>
+        <h1>Table of content</h1>
+        <ol>
+            <h2><li><a href="https://vnu.edu.vn">VNU</a></li></h2>
+            <h2><li><a href="https://www.hust.edu.vn">HUST</a></li></h2>
+        </ol>
+    </body>
+</html>
