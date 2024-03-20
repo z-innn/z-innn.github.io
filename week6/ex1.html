@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab exercise</title>
+</head>
+<body>
+    <input type="text" id="txta">
+    <input type="text" id="txtb">
+    <button onclick="tinhtong();">
+        Tính tổng
+    </button>
+    <lable id="ketqua">
+        Kết quả: <span id="tong"></span>
+    </lable>
+</body>
+<script>
+    function tinhtong(){
+        var a = document.getElementById('txta').value;
+        var b = document.getElementById('txtb').value;
+        var tong = parseInt(a) + parseInt(b);
+        document.getElementById('txta').value = '';
+        document.getElementById('txtb').value = '';
+        document.getElementById('tong').innerHTML = tong;
+        alert(tong);
+    }
+</script>
+</html>
